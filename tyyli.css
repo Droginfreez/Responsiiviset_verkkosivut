@@ -11,10 +11,28 @@ h1 {   text-align: center;
       ul.hieno-lista {
         font-size: 20px;
         list-style-type: circle;
-        
-    
-
         }
+
+        .grid-container {
+          display: grid;
+          width: 55%;
+          box-sizing: border-box;
+          grid-template-columns: 20% 80%;
+          grid-template-rows: 60px 60px;
+          grid-gap: 2px;
+          background-color: #000000;
+          padding: 2px;   
+          justify-content: center;
+          
+          
+        }
+        
+        .grid-container > div {
+          background-color: rgb(255, 255, 255);
+          text-align: center;
+          padding: 5px 0;
+          font-size: 30px }
+      
 
     
     

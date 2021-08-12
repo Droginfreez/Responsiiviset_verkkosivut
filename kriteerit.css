@@ -2,11 +2,12 @@
     display: grid;
     width: 55%;
     box-sizing: border-box;
-    grid-template-columns: 240px 800px;
+    grid-template-columns: 20% 80%;
     grid-template-rows: 60px 60px;
-    grid-gap: 3px;
+    grid-gap: 2px;
     background-color: #000000;
-    padding: 3px;   
+    padding: 2px;   
+    border-width: 100px;
     justify-content: center;
     align-content: center;
     position: relative;

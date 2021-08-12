@@ -1,17 +1,16 @@
 .grid-container {
     display: grid;
-    width: 1050px;
+    width: 55%;
     box-sizing: border-box;
     grid-template-columns: 240px 800px;
     grid-template-rows: 60px 60px;
     grid-gap: 3px;
     background-color: #000000;
     padding: 3px;   
-justify-content: center;
-  
+    justify-content: center;
+    align-content: center;
+    position: relative;
     
-
-   
     
   }
   

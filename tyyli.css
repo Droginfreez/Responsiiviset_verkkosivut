@@ -22,18 +22,21 @@ h1 {   text-align: center;
           grid-template-columns: 20% 80%;
           grid-template-rows: 60px 60px;
           grid-gap: 3px;
-          background-color: #000000;
-          padding: 3px;   
-          justify-content: center;
+          padding: 3px;  
+          justify-content: center;  
+          background-color: transparent;
           
-          
+                  
         }
         
         .grid-container > div {
-          background-color: rgb(255, 255, 255);
+          background-color: transparent;
           text-align: center;
           padding: 5px 0;
-          font-size: 30px }
+          font-size: 30px;    
+         outline: 3px black solid;  
+        }
+          
           
     
     
